@@ -1,0 +1,42 @@
+/* BACKGROUND COLORS */
+.bg_roxo_1{
+  background-color: #8c7ae6;
+  color:#fff;
+}
+.bg_roxo_2{
+  background-color: #9c88ff;
+  color:#fff;
+}
+.btn_orange_1{
+  background-color: #e84118;
+  color:#fff;
+}
+.btn_orange_1:hover{
+  background-color: #c23616;
+  color:#fff;
+}
+.bg_orange_1{
+  background-color: #e84118;
+  color:#fff;
+}
+.bg_orange_2{
+  background-color: #c23616;
+  color:#fff;
+}
+/* LOGIN */
+.form_login{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding:20px;
+}
+.small_login{
+  width: 100%;
+  margin-left: 10px;
+}
+/* PAGES */
+.admin_title{
+  text-transform: uppercase;
+  text-align: center;
+  color: #069;
+}
