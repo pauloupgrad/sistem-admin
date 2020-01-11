@@ -30,12 +30,12 @@
               <a class="nav-link" href="usuarios.html">Usuarios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Preços</a>
+              <a class="nav-link" href="posts.html">Posts</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
-              <a class="btn btn-primary" href="#">Cadastro</a>
+              <a class="btn btn-success" href="login.html">Logof <i class="fas fa-sign-out-alt"></i></a>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@
  <!-- COMEÇO CONTEUDO AQUI -->
  <div class="container my-5">
   
-  <table class="table table-hover">
+  <table class="table table-hover table-responsive">
     <thead>
       <tr>
         <th scope="col">#ID</th>
@@ -66,16 +66,16 @@
 
       <tr>
         <th scope="row" width="5%">1</th>
-        <td width="30%">Usuario Exemplo 1</td>
-        <td width="25%">usuarioexemplo1@.com</td>
-        <td width="40%"class="text-center">
-          <a class="btn btn-info mr-2" href="perfil.html"><i class="fas fa-user"></i> Visualizar</a>
-                     
-          <a class="btn btn-success mr-2" href="edituser.html"><i class="fas fa-user-edit"></i> Editar</a>
+        <td width="35%">Usuario Exemplo 1</td>
+        <td width="35%">usuarioexemplo1@.com</td>
+        <td width="20%"class="text-center">
+          <a class="btn btn-info mr-2 mb-2 md-mb-0" href="perfil.html" title="Visualizar Perfil"><i class="fas fa-user"></i></a>
+                   
+          <a class="btn btn-success mr-2 mb-2 md-mb-0" href="edituser.html" title="Editar Usuário"><i class="fas fa-user-edit"></i> </a>
       
-          <form action="" method="post"  class="d-inline">
-            <button class="btn btn-danger" type="submit">
-              <i class="fas fa-user-times"></i> Deletar
+          <form action="delete.html" method="get"  class="d-inline">
+            <button class="btn btn-danger mb-2 md-mb-0" type="submit">
+              <i class="fas fa-user-times"></i>
             </button>
           </form>
         </td>
@@ -85,16 +85,16 @@
       <!-- tr-2 -->
         <tr>
           <th scope="row" width="5%">2</th>
-          <td width="30%">Usuario Exemplo 2</td>
-          <td width="25%">usuarioexemplo2@.com</td>
-          <td width="40%"class="text-center">
-            <a class="btn btn-info mr-2" href="perfil.html"><i class="fas fa-user"></i> Visualizar</a>
-                       
-            <a class="btn btn-success mr-2" href="edituser.html"><i class="fas fa-user-edit"></i> Editar</a>
+          <td width="35%">Usuario Exemplo 1</td>
+          <td width="35%">usuarioexemplo1@.com</td>
+          <td width="20%"class="text-center">
+            <a class="btn btn-info mr-2 mb-2 md-mb-0" href="perfil.html" title="Visualizar Perfil"><i class="fas fa-user"></i></a>
+                     
+            <a class="btn btn-success mr-2 mb-2 md-mb-0" href="edituser.html" title="Editar Usuário"><i class="fas fa-user-edit"></i> </a>
         
-            <form action="" method="post"  class="d-inline">
-              <button class="btn btn-danger" type="submit">
-                <i class="fas fa-user-times"></i> Deletar
+            <form action="delete.html" method="get"  class="d-inline">
+              <button class="btn btn-danger mb-2 md-mb-0" type="submit">
+                <i class="fas fa-user-times"></i>
               </button>
             </form>
           </td>
@@ -107,7 +107,9 @@
 <footer class="bg_orange_2 pt-4 pb-2">
   <div class="container">
     <div class="row">
-      <p>2020 &copy; Painel ADM - Todos os direitos reservados</p>
+      <div class="col-md-12">
+        <p>2020 &copy; Painel ADM - Todos os direitos reservados</p>
+      </div> 
     </div>
   </div>
 </footer>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../images/favicon-sistema-adm.png" type="image/x-icon">
+  <title>Sistema ADM</title>
+  <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <!-- Navegação inicio -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg_orange_2">
+      <div class="container">
+        <a class="navbar-brand" href="painel.html">
+          <img src="../images/logomarca-sistema-adm-white.png" alt="logomarca-sistema-adm">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../layout/painel.html">Home <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="usuarios.html">Usuarios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="posts.html">Posts</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <a class="btn btn-success" href="login.html">Logof <i class="fas fa-sign-out-alt"></i></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navegação fim -->
+  <div class="container my-5">
+    <h1 class="admin_title my-5">Meu Perfil</h1>
+  </div>
+  </header>
+  <!-- COMEÇO CONTEUDO AQUI -->
+  <div class="container my-5"> 
+    <div class="row">
+      <div class="col-md-12 my-5 text-center">
+        <img src="../images/foto-perfil.png" class="img-fluid rounded-circle" alt="Foto do perfil">
+        <h2 class="my-4">Usuario Exemplo 1</h2>
+      </div>
+    </div>  
+    <div class="row">
+      <div class="col-md-5 text-center">
+        <h2 class="mb-4">Biografia</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam, tortor id faucibus ornare, erat nisl vehicula odio, vel varius lacus neque eu ex. Sed a sem non mauris lobortis maximus. Nam pharetra libero ut sagittis facilisis. In viverra, turpis id cursus molestie.</p>
+        <p>Duis malesuada justo sit amet purus egestas, vel maximus dolor ultrices. Integer mattis justo at leo consectetur, et lobortis ligula eleifend. Morbi turpis dui, maximus quis ligula eu, vehicula consequat lectus. Sed eget lectus vestibulum, molestie mi eget, pellentesque urna.  </p>
+      </div>
+      <div class="col-md-6  offset-md-1">
+        <h2 class="mb-4">Informações Gerais</h2>        
+          <p><strong>Nome:</strong> Usuario Exemplo 1</p>
+          <p><strong>Email:</strong> usuarioexemplo1@exemplo.com</p>
+          <p><strong>Site:</strong> <a href="https://www.webgrad.com.br">https://meusite.com.br</a> </p>
+          <p><i class="fab fa-whatsapp"></i> (xx) xxxxx-xxxx</p>
+          <p><i class="fas fa-phone-square"></i> (xx) xxxxx-xxxx</p>
+          <p><i class="fab fa-facebook-square"></i> https://facebook.com/minhapage</p>
+          <p><i class="fab fa-twitter-square"></i> @minhapage</p>
+          <p><i class="fab fa-github-square"></i> https://gitbub.com/meuperfil</p>
+        
+      </div>
+    </div>
+  </div>
+   <!-- FIM CONTEUDO AQUI -->
+<!-- FIM CONTEUDO AQUI -->
+<footer class="bg_orange_2 pt-4 pb-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>2020 &copy; Painel ADM - Todos os direitos reservados</p>
+      </div>     
+    </div>
+  </div>
+</footer>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
