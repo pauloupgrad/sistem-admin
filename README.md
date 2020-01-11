@@ -13,4 +13,4 @@
 
 ## OBS:
 
-Todos os formulários estão com method GET, para navegação entre templates sem envio. Para uso na técnologia escolida, troque o method para post nos formulários de Delete, edição e cadastro.
+Todos os formulários estão com method ( GET ), para navegação entre templates sem envio. Para uso na técnologia escolida, troque o method para ( POST ) nos formulários de Delete, edição e cadastro.
